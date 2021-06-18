@@ -12,24 +12,20 @@ const mainBody = {
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      image: "fab fa-github",
+      url: "https://github.com/boris097156",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fab fa-linkedin",
+      url: "https://www.linkedin.com/in/po-yi-boris-chen/",
     },
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      image: "fas fa-envelope",
+      url: "mailto:boris097156@gmail.com",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      image: "fas fa-portrait",
+      url: "https://drive.google.com/file/d/1hOLdgYZUHNk-4J4blhZoXqgAmi9al8pE/view?usp=sharing",
     },
   ],
 };
@@ -51,10 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../assets/img/borisChen.png"),
   imageSize: 375,
   message:
-    "My name is Po-Yi Chen. I’m a graduate of 2020 from University of Texas at Austin with a master's degree in Computer Science. I'm currently working at Amazon as a full time software engineer.",
+    "My name is Po-Yi Chen. I’m a graduate of 2020 December from University of Texas at Austin with a master's degree in Computer Science. I'm currently working at Amazon as a full time software engineer.",
   resume: "https://drive.google.com/file/d/1hOLdgYZUHNk-4J4blhZoXqgAmi9al8pE/view?usp=sharing",
 };
 
@@ -64,7 +60,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -79,12 +75,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../assets/img/borisChen.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../assets/img/borisChen.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -131,18 +127,18 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Development Engineer',
+      companylogo: require('../assets/img/amazon.png'),
+      date: 'Feburary 2021 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Software Development Engineer Intern',
+      companylogo: require('../assets/img/amazon.png'),
+      date: 'May 2020 – August 2020',
     },
   ]
 }

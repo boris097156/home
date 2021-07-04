@@ -134,11 +134,13 @@ const experiences = {
       role: 'Software Development Engineer',
       companylogo: require('../assets/img/amazon.png'),
       date: 'Feburary 2021 – Present',
+      description: "Designed and implemented language features for internal front-end programming language using Kotlin.",
     },
     {
       role: 'Software Development Engineer Intern',
       companylogo: require('../assets/img/amazon.png'),
       date: 'May 2020 – August 2020',
+      description: "Owned IDE import project, developed features that organize and quick-fix import statements for an Amazon internal language on all IDE that follows language server protocols. Reduces hundreds of lines in the codebase and shortens development time for front-end development."
     },
   ]
 }

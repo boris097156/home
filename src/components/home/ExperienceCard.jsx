@@ -7,14 +7,18 @@ import {
 const ExperienceCard = ({data}) => {
     return ( 
         <Col lg="6">
-            <div className="pb-5 text-center">
+            <div className="pb-1 text-center">
                 <img className=" bg-white mb-3" src={data.companylogo} alt=""/>
                 <p className="lead">
                     {data.role}
                     <br/>
-                    {data.date}
+                    <i>{data.date}</i>
+                </p>                
+            </div>
+            <div className="pt-1">
+                <p>
+                <small>{data.description}</small>
                 </p>
-                
             </div>
         </Col>
      );
